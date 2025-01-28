@@ -1,0 +1,33 @@
+*, body {
+    padding : 0px;
+    margin: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+a > button {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: .4s all;
+}
+
+a > button:hover {
+    background: red;
+    color: white;
+    transform: scale(1.1);
+}
