@@ -12,9 +12,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('Homepage', ['title' => 'Home Page']);
 // });
 
-Route::get('/', [UserController::class, 'Halo']);// Route controller
+// Route::get('/', [UserController::class, 'View']);// Route controller
 
-Route::get('/todo', [TodoController::class, 'index'])->name('todo');
+Route::get('/', [TodoController::class, 'index'])->name('todo');
 
 Route::post('/todo', [TodoController::class, 'store'])->name('todo.post');
 
