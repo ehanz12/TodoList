@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 <body>
+    <x-header></x-header>
     <div class="container">
-        <h1>{{ $title }}</h1>
-        <a href="/todo"><button>Menuju list Todo</button></a>
+        <a href="{{ url('/todo') }}"><button>Menuju list Todo</button></a>
     </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    </script>
 </body>
 </html>

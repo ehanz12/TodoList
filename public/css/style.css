@@ -12,18 +12,15 @@
     gap: 20px;
 }
 
-h1 {
-    font-size: 45px;
-    margin-bottom: 20px;
-}
+
 
 a > button {
     background-color: transparent;
     border-radius: 20px;
-    padding: 20px;
+    padding: 15px;
     font-size: 17px;
     font-weight: 600;
-    transition: .4s all;
+    transition: .2s all;
 }
 
 a > button:hover {
